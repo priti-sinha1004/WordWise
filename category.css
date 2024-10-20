@@ -3,7 +3,10 @@
   margin: 20px auto;
   max-width: 1200px;
   margin-bottom: 100px;
-
+  filter:grayscale(40%);
+}
+.category-container:hover{
+  filter:grayscale(0%);
 }
 
 .category-row {
