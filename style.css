@@ -853,6 +853,16 @@ header {
   transform: translateY(-20px); /* Start above the position */
   transition: color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
 }
+/*priti*/
+.nav-links1 a:hover {
+  background-color: #fa9e52;
+  padding: 10px;
+  border-radius: 20px;
+  transform: translateY(-5px); /* Moves the text upward */
+  color:#F3D0D7;
+  transition: all .5s ease-in-out ;
+}
+
 
 /* Gradient underline effect */
 .nav-links1 a::after {
