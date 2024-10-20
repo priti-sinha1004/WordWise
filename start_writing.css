@@ -8,6 +8,14 @@
     margin: 20px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    background-color: #fcf2f979;
+    /*filter: opacity(45%)*//* Apply grayscale by default */
+
+}
+.blog-form-container:hover {
+background-color: #aecaec;
+  /*filter: grayscale(100%);*/
+  transform: scale(1.02);
 }
 
 /* Input, Textarea, and Select Styling */
